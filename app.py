@@ -11,7 +11,7 @@ tickerSymbol = 'BTC-USD'
 #obtener datos
 tickerData = yf.Ticker(tickerSymbol)
 #obtener precios historicos
-tickerDf = tickerData.history(period='1d', start='2017-2-1', end='2022-2-1')
+tickerDf = tickerData.history(period='1d', start='2019-2-1', end='2022-7-27')
 
 
 st.write("""
